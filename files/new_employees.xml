@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<employees>
+  <employee>
+    <id>1001</id>
+    <first_name>John</first_name>
+    <last_name>Doe</last_name>
+    <email>john.doe@example.com</email>
+    <gender>Male</gender>
+    <salary>85000</salary>
+    <years_of_experience>5</years_of_experience>
+  </employee>
+  <employee>
+    <id>1002</id>
+    <first_name>Jane</first_name>
+    <last_name>Smith</last_name>
+    <email>jane.smith@example.com</email>
+    <gender>Female</gender>
+    <salary>92000</salary>
+    <years_of_experience>7</years_of_experience>
+  </employee>
+  <employee>
+    <id>1003</id>
+    <first_name>Robert</first_name>
+    <last_name>Johnson</last_name>
+    <email>robert.johnson@example.com</email>
+    <gender>Male</gender>
+    <salary>78000</salary>
+    <years_of_experience>3</years_of_experience>
+  </employee>
+</employees>
