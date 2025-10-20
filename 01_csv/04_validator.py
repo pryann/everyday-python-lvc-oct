@@ -37,3 +37,6 @@ if __name__ == "__main__":
             print("Row: ", row)
     except ValueError as error:
         print("Error:", error)
+
+standard_hungarian_tax_rate_in_percent = 27
+print(standard_hungarian_tax_rate_in_percent)
