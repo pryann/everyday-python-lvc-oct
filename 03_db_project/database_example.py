@@ -81,4 +81,4 @@ if __name__ == "__main__":
     # main(conn)
     result = run_query(conn, "SELECT yearly_salary FROM employees")
     salaries = [row[0] for row in result]
-    print(salaries)
+    print(generate_stat(salaries))
