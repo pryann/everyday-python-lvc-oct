@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb_employees
+    environment:
+      MYSQL_ROOT_PASSWORD: employees
+      MYSQL_DATABASE: employees
+      MYSQL_USER: employees
+      MYSQL_PASSWORD: employees
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./employees.csv:/var/lib/mysql-files/employees.csv
+
+volumes:
+  mariadb_data:
