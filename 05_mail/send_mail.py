@@ -79,10 +79,10 @@ def send_mail(
 
 if __name__ == "__main__":
     # real life user a config file or environment variables
-    smtp_server = ""
-    smtp_port = 587
-    smtp_email = ""
-    smtp_password = ""
+    smtp_server = "YOUR_SMTP_SERVER"
+    smtp_port = 587 # OR 465 for SSL OR CUSTOM PORT
+    smtp_email = "YOUR_EMAIL"
+    smtp_password = "YOUR_PASSWORD"
 
     server = connect_to_smtp(smtp_server, smtp_port, smtp_email, smtp_password)
 
